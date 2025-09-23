@@ -1,17 +1,20 @@
 import csv,smtplib,ssl
 sendername = input("Enter your Gmail: ")
-password = input("Enter passkey (dw i wont steal it): ")
+password = input("Enter passkey : ")
 server = smtplib.SMTP_SSL("smtp.gmail.com", 465, context=ssl.create_default_context())
 server.login(sendername, password)
 for row in csv.DictReader(open("list.csv")):
     message = f"""Subject: Hello {row['name']}
 
-HALLLOOOO {row['name']}!!!,
+Hello {row['name']}!,
 
-Wassup lil dumbass, this is a test email to check if this shi works.
+I hope this message finds you well.
 
-Best Regards,
-Athira The Great <3
+This is a test email to verify that the automatic email system is functioning correctly.
+
+Best regards,
+Athira Denny
+
 """
     server.sendmail(sendername, row["email"], message)
     print("Email Sent to", row["name"])

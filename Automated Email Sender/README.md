@@ -76,5 +76,5 @@ Athira Denny
 
 """
 
-##Security Note
+#Security Note
 Never hardcode your email address or password directly into the script. By prompting for input, the current version of the script ensures your credentials are not saved within the file itself. For more advanced projects, consider using environment variables or a .env file to manage sensitive information.
