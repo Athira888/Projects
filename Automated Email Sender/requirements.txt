@@ -1,0 +1,15 @@
+Software Requirements:
+*Python 3.x: The script is written in Python and is compatible with all Python 3 versions. It relies on standard libraries included with Python, so you don't need to install any external packages.
+
+*A Text Editor or Code Editor: You'll need an application to create and edit the files (main.py, list.csv, README.md).
+
+Setup Requirements:
+*A Gmail Account: The script is specifically designed to work with Google's SMTP servers.
+
+*Gmail 2-Step Verification: Your Gmail account must have 2-Step Verification enabled to use an App Password.
+
+*A Gmail App Password: You cannot use your regular Gmail password. You must generate a special 16-character App Password from your Google Account settings, which the script will use to securely log in.
+
+*A list.csv file: This file must be in the same directory as your Python script. It must contain the email recipients' names and addresses with the exact headers name and email.
+
+

@@ -1,0 +1,24 @@
+**Software Requirements:
+Python 3.x: The script is written in Python 3 and uses the built-in os and shutil libraries. No additional installations are needed.
+
+**Setup Requirements:
+The Script File: You must have the organiser.py script saved on your computer.
+
+**A Folder to Organize: The script needs a folder on your computer to sort and organize the files. You will provide the path to this folder when prompted by the script.
+
+**Modules:
+-Shutil
+-os
+
+
+
+
+
+
+
+
+
+
+
+Tools
+
