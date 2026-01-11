@@ -4,7 +4,7 @@ This is a simple Python script designed to send personalized emails to a list of
 
 ### Features
 
-**Personalized Emails**: Automatically inserts the recipient's name from the CSV file into the email body, making each message unique and personal.
+**Personalized Emails**: Automatically inserts the recipient's name from the CSV file into the email body, making each message unique and  yespersonal.
 **CSV-Based Recipient Management**: Manages recipient lists in a straightforward, human-readable format (`.csv`), which can be easily edited using any spreadsheet program.
 **Secure SMTP Connection**: Utilizes SSL encryption to ensure a secure connection to Google's SMTP server for safe and reliable email delivery.
 **Minimal Dependencies**: Uses only Python's built-in libraries (`csv`, `smtplib`, `ssl`), so no extra packages need to be installed.
