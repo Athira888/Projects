@@ -1,4 +1,4 @@
-# Wi-Fi Mapper / Heatmap
+Wi-Fi Mapper / Heatmap
 
 This project is a **Wi-Fi strength mapping tool** that allows you to create a visual heatmap of Wi-Fi signal strength on a floor plan.  
 It uses Python, OpenCV, Tkinter, and NumPy to measure Wi-Fi signals and generate interactive heatmaps.
